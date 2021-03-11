@@ -4,7 +4,11 @@
 
 ## Requirements
 
-This package requires that you have the latest version of React, React DOM, and Material-UI installed.
+Latest versions of the following
+
+- React
+- React DOM
+- Material-UI
 
 ## Installing
 
