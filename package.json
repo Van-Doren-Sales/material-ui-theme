@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A Material UI theme to be used for all of our projects, to keep consistency.",
   "main": "./dist/material-ui-theme.js",
+  "sideEffects": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config webpack/webpack.dev.js",
