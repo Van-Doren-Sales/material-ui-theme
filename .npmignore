@@ -3,6 +3,5 @@ node_modules/
 src/
 webpack/
 .vscode/
-dist/src/
 tsconfig.json
 .prettierrc
