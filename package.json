@@ -9,7 +9,7 @@
     "start": "webpack serve --config webpack/webpack.dev.js",
     "build": "webpack --config webpack/webpack.prod.js",
     "prepublishOnly": "npm run build",
-    "postinstall": "npm-install-peers"
+    "prepare": "npm-install-peers"
   },
   "keywords": [
     "material-ui theme",
