@@ -1,12 +1,44 @@
 {
   "name": "@vandorensales/material-ui-theme",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Material UI theme to be used for all of our projects, to keep consistency.",
+  "main": "./dist/material-ui-theme.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config webpack/webpack.dev.js",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "prepublishOnly": "npm run build",
+    "postinstall": "npm-install-peers"
   },
-  "keywords": [],
+  "keywords": [
+    "material-ui theme",
+    "material ui theme"
+  ],
   "author": "Van Doren Sales",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Van-Doren-Sales/material-ui-theme"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "@material-ui/core": "^4.11.3"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/webpack": "^4.41.26",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "eslint": "^7.21.0",
+    "html-webpack-plugin": "^5.3.1",
+    "npm-install-peers": "^1.2.2",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
 }
