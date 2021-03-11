@@ -5,7 +5,7 @@ const config = require('./webpack.config');
 
 module.exports = merge(config, {
   mode: 'production',
-  entry: './src/lib/theme.tsx',
+  entry: './src/index.tsx',
   output: {
     filename: 'material-ui-theme.js',
     path: path.resolve(__dirname, '..', 'dist'),

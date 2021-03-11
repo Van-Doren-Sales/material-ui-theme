@@ -5,3 +5,4 @@ webpack/
 .vscode/
 tsconfig.json
 .prettierrc
+example/

@@ -5,7 +5,7 @@ const config = require('./webpack.config');
 
 module.exports = merge(config, {
   mode: 'development',
-  entry: './src/index.tsx',
+  entry: './example/index.tsx',
   devServer: {
     open: true,
   },
