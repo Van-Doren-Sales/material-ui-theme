@@ -19,13 +19,14 @@ Latest versions of the following
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ThemeProvider } from '@material-ui/core';
+import { ThemeProvider, CssBaseline } from '@material-ui/core';
 import Theme from '@vandorensales/material-ui-theme';
 
 import App from './App';
 
 ReactDOM.render(
   <ThemeProvider theme={Theme}>
+    <CssBaseline />
     <App />
   </ThemeProvider>,
   document.getElementById('root')
