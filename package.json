@@ -1,6 +1,6 @@
 {
   "name": "@vandorensales/material-ui-theme",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A Material UI theme to be used for all of our projects, to keep consistency.",
   "main": "./dist/material-ui-theme.js",
   "types": "./dist",
@@ -18,7 +18,7 @@
     "theme"
   ],
   "author": "Van Doren Sales",
-  "homepage": "https://www.vandorensales.com/",
+  "homepage": "https://www.vandorensales.com",
   "bugs": {
     "url": "https://github.com/Van-Doren-Sales/material-ui-theme/issues"
   },
