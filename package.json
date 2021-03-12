@@ -18,6 +18,10 @@
     "theme"
   ],
   "author": "Van Doren Sales",
+  "homepage": "https://www.vandorensales.com/",
+  "bugs": {
+    "url": "https://github.com/Van-Doren-Sales/material-ui-theme/issues"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Van-Doren-Sales/material-ui-theme"
