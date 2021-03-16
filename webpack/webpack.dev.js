@@ -8,6 +8,7 @@ module.exports = merge(config, {
   entry: './example/index.tsx',
   devServer: {
     open: true,
+    port: 8081,
   },
   plugins: [
     new HtmlWebpackPlugin({

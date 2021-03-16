@@ -19,6 +19,21 @@ const theme = createMuiTheme({
       paper: '#282C34',
     },
   },
+  typography: {
+    fontFamily: [
+      '"Open Sans"',
+      '"Helvetica Neue"',
+      'Arial',
+      '-apple-system',
+      'BlinkMacSystemFont',
+      '"Segoe UI"',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(','),
+    fontWeightMedium: 600,
+  },
   shape: {
     borderRadius: 0,
   },

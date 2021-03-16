@@ -1,6 +1,6 @@
 {
   "name": "@vandorensales/material-ui-theme",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A Material UI theme to be used for all of our projects, to keep consistency.",
   "main": "./dist/material-ui-theme.js",
   "types": "./dist",
@@ -27,9 +27,9 @@
   },
   "license": "MIT",
   "peerDependencies": {
+    "@material-ui/core": "^4.11.3",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "@material-ui/core": "^4.11.3"
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "@material-ui/core": "^4.11.3",
@@ -57,6 +57,5 @@
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3"
-  },
-  "dependencies": {}
+  }
 }
