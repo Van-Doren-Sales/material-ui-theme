@@ -5,4 +5,3 @@ declare type IProps = {
 };
 export declare const ThemeProvider: ({ children }: IProps) => JSX.Element;
 export default theme;
-//# sourceMappingURL=index.d.ts.map

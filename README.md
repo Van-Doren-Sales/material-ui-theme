@@ -20,7 +20,7 @@ Latest versions of the following
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { ThemeProvider, CssBaseline } from '@material-ui/core';
-import Theme from '@vandorensales/material-ui-theme';
+import { Theme } from '@vandorensales/material-ui-theme';
 
 import App from './App';
 

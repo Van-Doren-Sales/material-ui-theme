@@ -5,7 +5,7 @@ import {
   CssBaseline,
 } from '@material-ui/core';
 
-const theme = createMuiTheme({
+export const Theme = createMuiTheme({
   palette: {
     type: 'dark',
     primary: {
@@ -39,15 +39,13 @@ const theme = createMuiTheme({
   },
 });
 
-type IProps = {
-  children: React.ReactChild | React.ReactChildren;
+type ThemeProviderProps = {
+  children: React.ReactNode;
 };
 
-export const ThemeProvider = ({ children }: IProps) => (
-  <MuiThemeProvider theme={theme}>
+export const ThemeProvider = ({ children }: ThemeProviderProps) => (
+  <MuiThemeProvider theme={Theme}>
     <CssBaseline />
     {children}
   </MuiThemeProvider>
 );
-
-export default theme;

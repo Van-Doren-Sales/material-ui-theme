@@ -1,13 +1,13 @@
 {
   "name": "@vandorensales/material-ui-theme",
-  "version": "1.0.11",
+  "version": "2.0.0",
   "description": "A Material UI theme to be used for all of our projects, to keep consistency.",
   "main": "./dist/material-ui-theme.js",
   "types": "./dist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config webpack/webpack.dev.js",
-    "build": "webpack --config webpack/webpack.prod.js",
+    "build": "tsc",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
