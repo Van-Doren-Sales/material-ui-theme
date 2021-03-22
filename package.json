@@ -1,6 +1,6 @@
 {
   "name": "@vandorensales/material-ui-theme",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Material UI theme to be used for all of our projects, to keep consistency.",
   "main": "./dist/index.js",
   "types": "./dist",
