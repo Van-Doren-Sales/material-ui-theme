@@ -2,7 +2,7 @@
   "name": "@vandorensales/material-ui-theme",
   "version": "2.0.0",
   "description": "A Material UI theme to be used for all of our projects, to keep consistency.",
-  "main": "./dist/material-ui-theme.js",
+  "main": "./dist/index.js",
   "types": "./dist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

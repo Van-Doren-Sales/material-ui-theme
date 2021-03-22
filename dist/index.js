@@ -1,6 +1,6 @@
 import React from 'react';
 import { unstable_createMuiStrictModeTheme as createMuiTheme, ThemeProvider as MuiThemeProvider, CssBaseline, } from '@material-ui/core';
-var theme = createMuiTheme({
+export var Theme = createMuiTheme({
     palette: {
         type: 'dark',
         primary: {
@@ -35,8 +35,7 @@ var theme = createMuiTheme({
 });
 export var ThemeProvider = function (_a) {
     var children = _a.children;
-    return (React.createElement(MuiThemeProvider, { theme: theme },
+    return (React.createElement(MuiThemeProvider, { theme: Theme },
         React.createElement(CssBaseline, null),
         children));
 };
-export default theme;
