@@ -2,6 +2,7 @@
   "name": "@vandorensales/material-ui-theme",
   "version": "2.0.2",
   "description": "A Material UI theme to be used for all of our projects, to keep consistency.",
+  "prettier": "@vandorensales/prettier-config",
   "main": "./dist/index.js",
   "types": "./dist",
   "scripts": {
@@ -39,6 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
     "@vandorensales/eslint-config-vds-react": "^1.0.5",
+    "@vandorensales/prettier-config": "^1.0.1",
     "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
