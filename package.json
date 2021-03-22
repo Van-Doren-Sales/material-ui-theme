@@ -3,8 +3,8 @@
   "version": "2.0.2",
   "description": "A Material UI theme to be used for all of our projects, to keep consistency.",
   "prettier": "@vandorensales/prettier-config",
-  "main": "./dist/index.js",
-  "types": "./dist",
+  "main": "dist/index.js",
+  "types": "dist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --config webpack/webpack.dev.js",
